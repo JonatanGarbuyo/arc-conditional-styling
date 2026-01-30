@@ -1,0 +1,19 @@
+{
+	"ARC_ACCESS_TOKEN": "%{AQICAHhM1hPNmDSQX4Qnv07RnUUP2fZ0BdeH0iHedw9muMCrqAFzPjGTMqTNId7RbUFFL5OmAAAAqjCBpwYJKoZIhvcNAQcGoIGZMIGWAgEAMIGQBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDEAqR9jOWeqjFxhClAIBEIBjNRVTGxVHDeiObKN9RAzJpoqOT9QhILb9O9XV80ubHXAJMSiWScaGLehv2h+0qN7rveaHAyHbySEiV2QxLhsUQAKFybvhuaF3RZEMNI+lRzSKob1Jqrw5WULq6DZOjsnLhsMT}",
+	"resizerKey": "%{AQICAHhM1hPNmDSQX4Qnv07RnUUP2fZ0BdeH0iHedw9muMCrqAGi2AVOEFcD+2Bx+O0N+69iAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMHmLeQTC0w3Wz2Ds/AgEQgDt15L7Sr/g1pR+pPgKK/26J5FmZPGS4sN1Gc1vcqhiEXvUN/402C0hgOkn4vGXQX22rWQlMRCN8erlSkw==}",
+	"videoOrg": "palco",
+	"videoEnv": "sandbox",
+	"playerRoot": "//palco.video-player.arcpublishing.com",
+	"API_MOST_READ_SECRET_KEY": "%{AQICAHhM1hPNmDSQX4Qnv07RnUUP2fZ0BdeH0iHedw9muMCrqAG14o2/6ycu2twYFQ6N3icAAAAAcDBuBgkqhkiG9w0BBwagYTBfAgEAMFoGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMq+ScqaCFpBCDTFvYAgEQgC0UMJ8WQTzjXesrUOazH+qVj9YjXkZnA7tyys22JTe6fvplwG7PztHrI/FFEfw=}",
+	"RESIZER_TOKEN_VERSION": 1,
+	"AGENDA_API_BASE_URL": "https://dashboard-api-sandbox-586918690552.us-central1.run.app",
+	"SIGNING_SERVICE_DEFAULT_APP": "resizer",
+	"BLOCK_DIST_TAG": "stable",
+	"RESIZER_URL": {
+		"encanchacl": "https://palco-encanchacl-sandbox.web.arc-cdn.net/resizer/v2",
+		"encanchamx": "https://palco-encanchamx-sandbox.web.arc-cdn.net/resizer/v2",
+		"latfan": "https://palco-latfan-sandbox.web.arc-cdn.net/resizer/v2",
+		"tiempox": "https://palco-tiempox-sandbox.web.arc-cdn.net/resizer/v2"
+	},
+	"YOUTUBE_API_KEY": "%{AQICAHhM1hPNmDSQX4Qnv07RnUUP2fZ0BdeH0iHedw9muMCrqAEqMG3eNCy8ku2r4fcUY7tqAAAAhjCBgwYJKoZIhvcNAQcGoHYwdAIBADBvBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDJ4TYehR3aU5Gzt+QQIBEIBCuZKxJ1QNvn+XgBKZ2cpFiVk60DQHFnAVqm46D8IiyFu7VuZ21xOtYeLJu5tiH773gULU7ukaL4amazr+Hx9dh+7p}"
+}

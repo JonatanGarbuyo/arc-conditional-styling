@@ -1,0 +1,61 @@
+.regular-chain {
+	padding-inline: 20px;
+	max-width: 1240;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	row-gap: 20px;
+
+	&__child {
+		display: contents;
+
+		& > * {
+			grid-column: span 12;
+		}
+
+		& > .story-card {
+			grid-template-areas: "image" "overline" "headline" "description" "date" "byline" "liveblog" "related-content";
+			padding-bottom: 15px;
+
+			&::after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				// background-color: map-get($color, gray-500);
+				transform: scaleY(0.5);
+			}
+
+			.story-card__image {
+				margin-bottom: 10px;
+			}
+
+			.story-card__overline {
+				// font-family: $tertiary-font;
+				font-size: 15px;
+				font-weight: 500;
+				color: var(--color-accent);
+			}
+
+			.story-card__headline {
+				margin-top: 5px;
+				font-size: 22px;
+				line-height: 1.2;
+
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				-webkit-line-clamp: 4;
+				line-clamp: 4;
+			}
+		}
+		.story-card__image iframe {
+			aspect-ratio: 246 / 160;
+		}
+	}
+ 
+}

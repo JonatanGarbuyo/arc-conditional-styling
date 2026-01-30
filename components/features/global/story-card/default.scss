@@ -1,0 +1,14 @@
+@use "./amp.scss";
+
+.story-card {
+  background-color: blue;
+  
+}
+
+@media (min-width: 768px) {
+
+.story-card {
+  background-color: green;
+}
+
+}
