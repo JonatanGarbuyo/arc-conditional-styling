@@ -1,0 +1,23 @@
+{
+  "pinned": [],
+  "// tracking": false,
+  "displayName": "Local Fusion Developer",
+  "permissions": {
+    "PageBuilder": {
+      "global": [
+        "AAPP",
+        "W",
+        "D",
+        "P",
+        "UP",
+        "DT",
+        "RE",
+        "RD",
+        "A",
+        "MT",
+        "EA",
+        "MAT"
+      ]
+    }
+  }
+}
