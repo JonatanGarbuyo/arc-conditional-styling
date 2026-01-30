@@ -1,0 +1,11 @@
+@use "./amp.scss";
+
+.hello_text {
+  background-color: blue;
+}
+
+@media (min-width: 768px) {
+  .hello_text {
+    background-color: green;
+  }
+}
